@@ -15,7 +15,7 @@ function checkAge() {
         window.location.href = "http://www.google.com";        
     }
 }
-let sessionLog = function logSession(session) {
+let sessionLog = function logSession() {
     for (let result of session) {
         console.log(result)
     }
