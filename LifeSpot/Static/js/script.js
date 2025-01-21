@@ -1,3 +1,5 @@
+
+
 function handleSession() {
     session.set("startDate", new Date().toLocaleString())
     session.set("userAgent", window.navigator.userAgent)

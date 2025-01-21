@@ -1,4 +1,32 @@
-﻿.bordered {
+﻿html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    outline: none !important;
+    overflow: hidden;
+}
+
+* {
+    list-style-type: none
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+.bordered {
     border: 2px solid black;
     background-color: #c4c4c;
     padding: 0 10px 10px 10px;

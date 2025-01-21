@@ -19,3 +19,13 @@ const writeReview = review => {
         `<p>${review['comment']}</p>` +
         '</div>';
 }
+
+var $ = jQuery;
+jQuery(document).ready(function ($) {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 1
+    });
+});
